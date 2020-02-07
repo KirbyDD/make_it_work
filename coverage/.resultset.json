@@ -243,12 +243,37 @@
           1,
           null,
           1,
+          null,
+          1,
           null
         ]
       },
       "/Users/tronkat/Turing/BackEnd/Mod2/challenges/make_it_work/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/tronkat/Turing/BackEnd/Mod2/challenges/make_it_work/spec/features/projects/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -363,7 +388,7 @@
           null
         ]
       },
-      "/Users/tronkat/Turing/BackEnd/Mod2/challenges/make_it_work/app/controllers/projects_controller.rb": {
+      "/Users/tronkat/Turing/BackEnd/Mod2/challenges/make_it_work/app/controllers/contestants_controller.rb": {
         "lines": [
           1,
           1,
@@ -377,8 +402,17 @@
           1,
           null
         ]
+      },
+      "/Users/tronkat/Turing/BackEnd/Mod2/challenges/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1581093160
+    "timestamp": 1581095160
   }
 }
