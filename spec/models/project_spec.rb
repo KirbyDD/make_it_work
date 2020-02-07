@@ -12,4 +12,17 @@ RSpec.describe Project, type: :model do
     it {should have_many :contestant_projects}
     it {should have_many(:contestants).through(:contestant_projects)}
   end
+
+  describe 'methods' do
+    before(:each) do
+      @challenge = Challenge.create!(theme: "Apartment Furnishings", project_budget: 1000000)
+      @project = @challenge.projects.create!(name: "Litfit", material: "Lamp Shade")
+      @contestant = @project.contestants.create!(name: "Tron Kat", age: 30, hometown: "Dallas", years_of_experience: 2)
+      @contestant2 = @project.contestants.create!(name: "Kat Tron", age: 29, hometown: "Denver", years_of_experience: 1)
+
+    end
+    it 'num_of_contestants' do
+      expect(@project.num_of_contestants).to eq(2)
+    end
+  end
 end
