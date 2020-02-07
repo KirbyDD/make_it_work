@@ -7,4 +7,8 @@ class Project <ApplicationRecord
   def num_of_contestants
     self.contestants.count
   end
+
+  def avg_experience
+    self.contestants.reduce(0) { |acc, contestant| acc + contestant[:years_of_experience]} / contestants.count
+  end
 end
